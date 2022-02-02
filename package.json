@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "",
   "scripts": {
-    "build": "vue-cli-service build --mode=development",
+    "build": "vue-cli-service build --dest dist",
     "serve": "vue-cli-service serve"
   },
   "author": "",
@@ -25,8 +25,8 @@
     "vue-template-compiler": "^2.6.11"
   },
   "vue": {
-    "publicPath": "client",
-    "outputDir": "client",
+    "publicPath": "dist",
+    "outputDir": "dist",
     "pages": {
       "index": {
         "entry": "src/main.js",
